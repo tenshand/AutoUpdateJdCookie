@@ -22,7 +22,7 @@ qinglong_data = {
 }
 
 # 定时器
-cron_expression = "0 5-6 * * *"
+cron_expression = "* 1-2 * * *"
 
 # 浏览器是否开启无头模式，即是否展示整个登录过程
 headless = True
