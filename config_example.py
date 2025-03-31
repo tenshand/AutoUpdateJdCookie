@@ -1,42 +1,21 @@
 # JD用户信息
 user_datas = {
-    "13500000000": {
-        "password": "123456",
-        "pt_pin": "123456",
-        "sms_func": "webhook",
+    "13456062603": {
+        "password": "Wangfeng123!",
+        "pt_pin": "jd_68ab0514525ec",
+        "sms_func": "no",
         "sms_webhook": "https://127.0.0.1:3000/getCode",
         # 设置为True时, 即使账号未失效也更新
-        "force_update": False
-    },
-    # QQ账号
-    "168465451": {
-        # qq密码
-        "password": "123456",
-        "pt_pin": "123456",
-        # 指定为qq账号
-        "user_type": "qq",
         "force_update": True
     },
-    "13500000001": {
-        "password": "123456",
-        "pt_pin": "123456",
-        "sms_func": "no"
-    },
-    "13500000002": {
-        "password": "123456",
-        "pt_pin": "123456",
-        # auto_switch设置为False时，关闭全自动过验证码，改为手动过验证码
-        "auto_switch": False
-    },
-}
 
 # ql信息
 qinglong_data = {
-    "url": "http://127.0.0.1:5700/",
-    "client_id": "",
-    "client_secret": "",
-    "username": "admin",
-    "password": "123456",
+    "url": "https://qingl.vip.cpolar.cn/",
+    "client_id": "GynbEPML1b-Q",
+    "client_secret": "Qaa3FbAfZc1A0V8ufa-j5WKd",
+    "username": "tenshand",
+    "password": "a88413958",
     # 可选参数，QL面板的sessionid，主要是避免抢占QL后台的登录。需要在浏览器上，F12上获取Authorization的请求头。如果为空或不设置则账号密码登录
     "token": ""
 }
@@ -48,7 +27,7 @@ cron_expression = "0 5-6 * * *"
 headless = True
 
 # 是否开启发消息
-is_send_msg = False
+is_send_msg = True
 # 更新成功后是否发消息的开关
 is_send_success_msg = True
 # 更新失败后是否发消息的开关
@@ -64,6 +43,7 @@ send_info = {
     "send_feishu": [
     ],
     "send_pushplus": [
+        "cf826d63d8664f45beeab22805358756"
     ]
 }
 
