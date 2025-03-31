@@ -3,10 +3,10 @@ user_datas = {
     "13456062603": {
         "password": "Wangfeng123!",
         "pt_pin": "jd_68ab0514525ec",
-        "sms_func": "no",
-        "sms_webhook": "https://127.0.0.1:3000/getCode",
+        "sms_func": "manual_input",
+        #"sms_webhook": "https://127.0.0.1:3000/getCode",
         # 设置为True时, 即使账号未失效也更新
-        "force_update": True
+        "force_update": no
     }
 }
 
