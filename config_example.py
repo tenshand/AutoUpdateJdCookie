@@ -44,7 +44,7 @@ send_info = {
     "send_feishu": [
     ],
     "send_pushplus": [
-        "cf826d63d8664f45beeab22805358756"
+        "https://www.pushplus.plus/send?token=cf826d63d8664f45beeab22805358756"
     ]
 }
 
