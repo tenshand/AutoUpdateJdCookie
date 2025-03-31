@@ -6,7 +6,7 @@ user_datas = {
         "sms_func": "manual_input",
         # "sms_webhook": "https://127.0.0.1:3000/getCode",
         # 设置为True时, 即使账号未失效也更新
-        "force_update": true
+        "force_update": True
     }
 }
 
